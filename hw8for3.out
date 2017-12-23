@@ -1,0 +1,719 @@
+RIKS-WEMPNER METHOD
+
+INPUT DATA
+nstep      niter        dels      errtol
+ 17.00  10.00   0.20   0.00
+iter   delt   delu1 deltu2  t   u1 u2 
+  1.00   0.20   0.00   0.00   0.20   0.00 
+  0.00 re1   re2 re3  sol1  sol2 sol3
+  0.20   0.00   0.00   0.20   0.00   0.00
+iter   delt   delu1 deltu2  t   u1 u2 
+  2.00  -0.00   0.00   0.00   0.20   0.00 
+  0.00 re1   re2 re3  sol1  sol2 sol3
+ -0.00   0.06   0.30  -0.00   0.00   0.00
+iter   delt   delu1 deltu2  t   u1 u2 
+  3.00  -0.00   0.00   0.00   0.20   0.00 
+  0.00 re1   re2 re3  sol1  sol2 sol3
+  0.00   0.06   0.30  -0.00   0.00   0.00
+iter   delt   delu1 deltu2  t   u1 u2 
+  4.00  -0.00   0.00   0.00   0.20   0.00 
+  0.00 re1   re2 re3  sol1  sol2 sol3
+  0.00   0.06   0.30  -0.00   0.00   0.00
+iter   delt   delu1 deltu2  t   u1 u2 
+  5.00  -0.00   0.00   0.00   0.20   0.00 
+  0.00 re1   re2 re3  sol1  sol2 sol3
+  0.00   0.06   0.30  -0.00   0.00   0.00
+iter   delt   delu1 deltu2  t   u1 u2 
+  6.00  -0.00   0.00   0.00   0.20   0.00 
+  0.00 re1   re2 re3  sol1  sol2 sol3
+  0.00   0.06   0.30  -0.00   0.00   0.00
+iter   delt   delu1 deltu2  t   u1 u2 
+  7.00  -0.00   0.00   0.00   0.20   0.00 
+  0.00 re1   re2 re3  sol1  sol2 sol3
+  0.00   0.06   0.30  -0.00   0.00   0.00
+iter   delt   delu1 deltu2  t   u1 u2 
+  8.00  -0.00   0.00   0.00   0.20   0.00 
+  0.00 re1   re2 re3  sol1  sol2 sol3
+ -0.00   0.06   0.30  -0.00   0.00   0.00
+iter   delt   delu1 deltu2  t   u1 u2 
+  9.00  -0.00   0.00   0.00   0.20   0.00 
+  0.00 re1   re2 re3  sol1  sol2 sol3
+ -0.00   0.06   0.29  -0.00   0.00   0.00
+iter   delt   delu1 deltu2  t   u1 u2 
+ 10.00  -0.00   0.00   0.00   0.20   0.00 
+  0.00 re1   re2 re3  sol1  sol2 sol3
+ -0.00   0.06   0.29  -0.00   0.00   0.00
+istep    t    u1  u2  
+  1.00   0.20   0.00   0.00
+iter   delt   delu1 deltu2  t   u1 u2 
+  1.00   0.20   0.00   0.00   0.40   0.00 
+  0.00 re1   re2 re3  sol1  sol2 sol3
+  0.20   0.06   0.29   0.20   0.00   0.00
+iter   delt   delu1 deltu2  t   u1 u2 
+  2.00  -0.00   0.00   0.00   0.40   0.00 
+  0.01 re1   re2 re3  sol1  sol2 sol3
+ -0.00   0.12   0.60  -0.00   0.00   0.00
+iter   delt   delu1 deltu2  t   u1 u2 
+  3.00  -0.00   0.00   0.00   0.40   0.00 
+  0.01 re1   re2 re3  sol1  sol2 sol3
+  0.00   0.12   0.60  -0.00   0.00   0.00
+iter   delt   delu1 deltu2  t   u1 u2 
+  4.00  -0.00   0.00   0.00   0.40   0.00 
+  0.01 re1   re2 re3  sol1  sol2 sol3
+  0.00   0.12   0.60  -0.00   0.00   0.00
+iter   delt   delu1 deltu2  t   u1 u2 
+  5.00  -0.00   0.00   0.00   0.40   0.00 
+  0.01 re1   re2 re3  sol1  sol2 sol3
+  0.00   0.12   0.60  -0.00   0.00   0.00
+iter   delt   delu1 deltu2  t   u1 u2 
+  6.00  -0.00   0.00   0.00   0.40   0.00 
+  0.01 re1   re2 re3  sol1  sol2 sol3
+  0.00   0.12   0.60  -0.00   0.00   0.00
+iter   delt   delu1 deltu2  t   u1 u2 
+  7.00  -0.00   0.00   0.00   0.40   0.00 
+  0.01 re1   re2 re3  sol1  sol2 sol3
+ -0.00   0.12   0.60  -0.00   0.00   0.00
+iter   delt   delu1 deltu2  t   u1 u2 
+  8.00  -0.00   0.00   0.00   0.40   0.00 
+  0.01 re1   re2 re3  sol1  sol2 sol3
+ -0.00   0.12   0.60  -0.00   0.00   0.00
+iter   delt   delu1 deltu2  t   u1 u2 
+  9.00  -0.00   0.00   0.00   0.40   0.00 
+  0.01 re1   re2 re3  sol1  sol2 sol3
+  0.00   0.12   0.60  -0.00   0.00   0.00
+iter   delt   delu1 deltu2  t   u1 u2 
+ 10.00  -0.00   0.00   0.00   0.40   0.00 
+  0.01 re1   re2 re3  sol1  sol2 sol3
+  0.00   0.12   0.60  -0.00   0.00   0.00
+istep    t    u1  u2  
+  2.00   0.40   0.00   0.01
+iter   delt   delu1 deltu2  t   u1 u2 
+  1.00   0.20   0.00   0.00   0.60   0.00 
+  0.01 re1   re2 re3  sol1  sol2 sol3
+  0.20   0.12   0.60   0.20   0.00   0.00
+iter   delt   delu1 deltu2  t   u1 u2 
+  2.00  -0.00   0.00   0.00   0.60   0.00 
+  0.01 re1   re2 re3  sol1  sol2 sol3
+  0.00   0.18   0.89  -0.00   0.00   0.00
+iter   delt   delu1 deltu2  t   u1 u2 
+  3.00  -0.00   0.00   0.00   0.60   0.00 
+  0.01 re1   re2 re3  sol1  sol2 sol3
+ -0.00   0.18   0.89  -0.00   0.00   0.00
+iter   delt   delu1 deltu2  t   u1 u2 
+  4.00  -0.00   0.00   0.00   0.60   0.00 
+  0.02 re1   re2 re3  sol1  sol2 sol3
+ -0.00   0.18   0.89  -0.00   0.00   0.00
+iter   delt   delu1 deltu2  t   u1 u2 
+  5.00  -0.00   0.00   0.00   0.60   0.00 
+  0.02 re1   re2 re3  sol1  sol2 sol3
+ -0.00   0.18   0.89  -0.00   0.00   0.00
+iter   delt   delu1 deltu2  t   u1 u2 
+  6.00  -0.00   0.00   0.00   0.60   0.00 
+  0.02 re1   re2 re3  sol1  sol2 sol3
+ -0.00   0.18   0.89  -0.00   0.00   0.00
+iter   delt   delu1 deltu2  t   u1 u2 
+  7.00  -0.00   0.00   0.00   0.60   0.00 
+  0.02 re1   re2 re3  sol1  sol2 sol3
+  0.00   0.18   0.89  -0.00   0.00   0.00
+iter   delt   delu1 deltu2  t   u1 u2 
+  8.00  -0.00   0.00   0.00   0.60   0.00 
+  0.02 re1   re2 re3  sol1  sol2 sol3
+  0.00   0.18   0.89  -0.00   0.00   0.00
+iter   delt   delu1 deltu2  t   u1 u2 
+  9.00  -0.00   0.00   0.00   0.60   0.00 
+  0.02 re1   re2 re3  sol1  sol2 sol3
+  0.00   0.18   0.89  -0.00   0.00   0.00
+iter   delt   delu1 deltu2  t   u1 u2 
+ 10.00  -0.00   0.00   0.00   0.60   0.00 
+  0.02 re1   re2 re3  sol1  sol2 sol3
+ -0.00   0.18   0.89  -0.00   0.00   0.00
+istep    t    u1  u2  
+  3.00   0.60   0.00   0.02
+iter   delt   delu1 deltu2  t   u1 u2 
+  1.00   0.20   0.00   0.00   0.80   0.00 
+  0.02 re1   re2 re3  sol1  sol2 sol3
+  0.20   0.18   0.89   0.20   0.00   0.00
+iter   delt   delu1 deltu2  t   u1 u2 
+  2.00  -0.00   0.00   0.00   0.80   0.01 
+  0.03 re1   re2 re3  sol1  sol2 sol3
+  0.00   0.24   1.20  -0.00   0.00   0.00
+iter   delt   delu1 deltu2  t   u1 u2 
+  3.00  -0.00   0.00   0.00   0.80   0.01 
+  0.03 re1   re2 re3  sol1  sol2 sol3
+  0.00   0.24   1.20  -0.00   0.00   0.00
+iter   delt   delu1 deltu2  t   u1 u2 
+  4.00  -0.00   0.00   0.00   0.80   0.01 
+  0.03 re1   re2 re3  sol1  sol2 sol3
+  0.00   0.24   1.20  -0.00   0.00   0.00
+iter   delt   delu1 deltu2  t   u1 u2 
+  5.00  -0.00   0.00   0.00   0.80   0.01 
+  0.03 re1   re2 re3  sol1  sol2 sol3
+  0.00   0.24   1.20  -0.00   0.00   0.00
+iter   delt   delu1 deltu2  t   u1 u2 
+  6.00  -0.00   0.00   0.00   0.80   0.01 
+  0.03 re1   re2 re3  sol1  sol2 sol3
+ -0.00   0.24   1.20  -0.00   0.00   0.00
+iter   delt   delu1 deltu2  t   u1 u2 
+  7.00  -0.00   0.00   0.00   0.80   0.01 
+  0.03 re1   re2 re3  sol1  sol2 sol3
+ -0.00   0.24   1.20  -0.00   0.00   0.00
+iter   delt   delu1 deltu2  t   u1 u2 
+  8.00  -0.00   0.00   0.00   0.80   0.01 
+  0.03 re1   re2 re3  sol1  sol2 sol3
+  0.00   0.24   1.20  -0.00   0.00   0.00
+iter   delt   delu1 deltu2  t   u1 u2 
+  9.00  -0.00   0.00   0.00   0.80   0.01 
+  0.04 re1   re2 re3  sol1  sol2 sol3
+ -0.00   0.24   1.20  -0.00   0.00   0.00
+iter   delt   delu1 deltu2  t   u1 u2 
+ 10.00  -0.00   0.00   0.00   0.80   0.01 
+  0.04 re1   re2 re3  sol1  sol2 sol3
+  0.00   0.24   1.20  -0.00   0.00   0.00
+istep    t    u1  u2  
+  4.00   0.80   0.01   0.04
+iter   delt   delu1 deltu2  t   u1 u2 
+  1.00   0.20   0.00   0.00   1.00   0.01 
+  0.04 re1   re2 re3  sol1  sol2 sol3
+  0.20   0.24   1.20   0.20   0.00   0.00
+iter   delt   delu1 deltu2  t   u1 u2 
+  2.00  -0.00   0.00   0.00   1.00   0.01 
+  0.04 re1   re2 re3  sol1  sol2 sol3
+ -0.00   0.30   1.49  -0.00   0.00   0.00
+iter   delt   delu1 deltu2  t   u1 u2 
+  3.00  -0.00   0.00   0.00   0.99   0.01 
+  0.04 re1   re2 re3  sol1  sol2 sol3
+ -0.00   0.30   1.49  -0.00   0.00   0.00
+iter   delt   delu1 deltu2  t   u1 u2 
+  4.00  -0.00   0.00   0.00   0.99   0.01 
+  0.04 re1   re2 re3  sol1  sol2 sol3
+  0.00   0.30   1.49  -0.00   0.00   0.00
+iter   delt   delu1 deltu2  t   u1 u2 
+  5.00  -0.00   0.00   0.00   0.99   0.01 
+  0.05 re1   re2 re3  sol1  sol2 sol3
+ -0.00   0.30   1.49  -0.00   0.00   0.00
+iter   delt   delu1 deltu2  t   u1 u2 
+  6.00  -0.00   0.00   0.00   0.99   0.01 
+  0.05 re1   re2 re3  sol1  sol2 sol3
+  0.00   0.30   1.49  -0.00   0.00   0.00
+iter   delt   delu1 deltu2  t   u1 u2 
+  7.00  -0.00   0.00   0.00   0.99   0.01 
+  0.05 re1   re2 re3  sol1  sol2 sol3
+  0.00   0.30   1.49  -0.00   0.00   0.00
+iter   delt   delu1 deltu2  t   u1 u2 
+  8.00  -0.00   0.00   0.00   0.99   0.01 
+  0.05 re1   re2 re3  sol1  sol2 sol3
+  0.00   0.30   1.49  -0.00   0.00   0.00
+iter   delt   delu1 deltu2  t   u1 u2 
+  9.00  -0.00   0.00   0.00   0.99   0.01 
+  0.05 re1   re2 re3  sol1  sol2 sol3
+  0.00   0.30   1.49  -0.00   0.00   0.00
+iter   delt   delu1 deltu2  t   u1 u2 
+ 10.00  -0.00   0.00   0.00   0.99   0.01 
+  0.06 re1   re2 re3  sol1  sol2 sol3
+ -0.00   0.30   1.49  -0.00   0.00   0.00
+istep    t    u1  u2  
+  5.00   0.99   0.01   0.06
+iter   delt   delu1 deltu2  t   u1 u2 
+  1.00   0.21   0.00   0.00   1.20   0.01 
+  0.06 re1   re2 re3  sol1  sol2 sol3
+  0.20   0.30   1.49   0.21   0.00   0.00
+iter   delt   delu1 deltu2  t   u1 u2 
+  2.00  -0.00   0.00   0.00   1.20   0.01 
+  0.06 re1   re2 re3  sol1  sol2 sol3
+  0.00   0.36   1.80  -0.00   0.00   0.00
+iter   delt   delu1 deltu2  t   u1 u2 
+  3.00  -0.00   0.00   0.00   1.20   0.01 
+  0.06 re1   re2 re3  sol1  sol2 sol3
+ -0.00   0.36   1.80  -0.00   0.00   0.00
+iter   delt   delu1 deltu2  t   u1 u2 
+  4.00  -0.00   0.00   0.00   1.20   0.01 
+  0.06 re1   re2 re3  sol1  sol2 sol3
+  0.00   0.36   1.80  -0.00   0.00   0.00
+iter   delt   delu1 deltu2  t   u1 u2 
+  5.00  -0.00   0.00   0.00   1.20   0.01 
+  0.07 re1   re2 re3  sol1  sol2 sol3
+ -0.00   0.36   1.80  -0.00   0.00   0.00
+iter   delt   delu1 deltu2  t   u1 u2 
+  6.00  -0.00   0.00   0.00   1.20   0.01 
+  0.07 re1   re2 re3  sol1  sol2 sol3
+ -0.00   0.36   1.80  -0.00   0.00   0.00
+iter   delt   delu1 deltu2  t   u1 u2 
+  7.00  -0.00   0.00   0.00   1.20   0.01 
+  0.07 re1   re2 re3  sol1  sol2 sol3
+ -0.00   0.36   1.80  -0.00   0.00   0.00
+iter   delt   delu1 deltu2  t   u1 u2 
+  8.00  -0.00   0.00   0.00   1.20   0.01 
+  0.07 re1   re2 re3  sol1  sol2 sol3
+ -0.00   0.36   1.80  -0.00   0.00   0.00
+iter   delt   delu1 deltu2  t   u1 u2 
+  9.00  -0.00   0.00   0.00   1.20   0.02 
+  0.08 re1   re2 re3  sol1  sol2 sol3
+  0.00   0.36   1.80  -0.00   0.00   0.00
+iter   delt   delu1 deltu2  t   u1 u2 
+ 10.00  -0.00   0.00   0.00   1.20   0.02 
+  0.08 re1   re2 re3  sol1  sol2 sol3
+  0.00   0.37   1.80  -0.00   0.00   0.00
+istep    t    u1  u2  
+  6.00   1.20   0.02   0.08
+iter   delt   delu1 deltu2  t   u1 u2 
+  1.00   0.20   0.00   0.00   1.39   0.02 
+  0.08 re1   re2 re3  sol1  sol2 sol3
+  0.20   0.37   1.80   0.20   0.00   0.00
+iter   delt   delu1 deltu2  t   u1 u2 
+  2.00  -0.00   0.00   0.00   1.39   0.02 
+  0.08 re1   re2 re3  sol1  sol2 sol3
+ -0.00   0.42   2.09  -0.00   0.00   0.00
+iter   delt   delu1 deltu2  t   u1 u2 
+  3.00  -0.00   0.00   0.00   1.39   0.02 
+  0.09 re1   re2 re3  sol1  sol2 sol3
+ -0.00   0.42   2.09  -0.00   0.00   0.00
+iter   delt   delu1 deltu2  t   u1 u2 
+  4.00  -0.00   0.00   0.00   1.39   0.02 
+  0.09 re1   re2 re3  sol1  sol2 sol3
+  0.00   0.42   2.09  -0.00   0.00   0.00
+iter   delt   delu1 deltu2  t   u1 u2 
+  5.00  -0.00   0.00   0.00   1.39   0.02 
+  0.09 re1   re2 re3  sol1  sol2 sol3
+ -0.00   0.42   2.09  -0.00   0.00   0.00
+iter   delt   delu1 deltu2  t   u1 u2 
+  6.00  -0.00   0.00   0.00   1.39   0.02 
+  0.09 re1   re2 re3  sol1  sol2 sol3
+  0.00   0.42   2.09  -0.00   0.00   0.00
+iter   delt   delu1 deltu2  t   u1 u2 
+  7.00  -0.00   0.00   0.00   1.39   0.02 
+  0.10 re1   re2 re3  sol1  sol2 sol3
+ -0.00   0.42   2.09  -0.00   0.00   0.00
+iter   delt   delu1 deltu2  t   u1 u2 
+  8.00  -0.00   0.00   0.00   1.39   0.02 
+  0.10 re1   re2 re3  sol1  sol2 sol3
+  0.00   0.42   2.09  -0.00   0.00   0.00
+iter   delt   delu1 deltu2  t   u1 u2 
+  9.00  -0.00   0.00   0.00   1.39   0.02 
+  0.10 re1   re2 re3  sol1  sol2 sol3
+ -0.00   0.43   2.09  -0.00   0.00   0.00
+iter   delt   delu1 deltu2  t   u1 u2 
+ 10.00  -0.00   0.00   0.00   1.39   0.02 
+  0.10 re1   re2 re3  sol1  sol2 sol3
+  0.00   0.43   2.09  -0.00   0.00   0.00
+istep    t    u1  u2  
+  7.00   1.39   0.02   0.10
+iter   delt   delu1 deltu2  t   u1 u2 
+  1.00   0.21   0.00   0.00   1.60   0.02 
+  0.11 re1   re2 re3  sol1  sol2 sol3
+  0.20   0.43   2.09   0.21   0.00   0.00
+iter   delt   delu1 deltu2  t   u1 u2 
+  2.00  -0.00   0.00   0.00   1.60   0.02 
+  0.11 re1   re2 re3  sol1  sol2 sol3
+ -0.00   0.49   2.40  -0.00   0.00   0.00
+iter   delt   delu1 deltu2  t   u1 u2 
+  3.00  -0.00   0.00   0.00   1.60   0.02 
+  0.11 re1   re2 re3  sol1  sol2 sol3
+ -0.00   0.49   2.40  -0.00   0.00   0.00
+iter   delt   delu1 deltu2  t   u1 u2 
+  4.00  -0.00   0.00   0.00   1.60   0.02 
+  0.12 re1   re2 re3  sol1  sol2 sol3
+  0.00   0.49   2.40  -0.00   0.00   0.00
+iter   delt   delu1 deltu2  t   u1 u2 
+  5.00  -0.00   0.00   0.00   1.60   0.02 
+  0.12 re1   re2 re3  sol1  sol2 sol3
+  0.00   0.49   2.40  -0.00   0.00   0.00
+iter   delt   delu1 deltu2  t   u1 u2 
+  6.00  -0.00   0.00   0.00   1.59   0.02 
+  0.12 re1   re2 re3  sol1  sol2 sol3
+  0.00   0.49   2.39  -0.00   0.00   0.00
+iter   delt   delu1 deltu2  t   u1 u2 
+  7.00  -0.00   0.00   0.00   1.59   0.03 
+  0.13 re1   re2 re3  sol1  sol2 sol3
+  0.00   0.49   2.39  -0.00   0.00   0.00
+iter   delt   delu1 deltu2  t   u1 u2 
+  8.00  -0.00   0.00   0.00   1.59   0.03 
+  0.13 re1   re2 re3  sol1  sol2 sol3
+ -0.00   0.49   2.39  -0.00   0.00   0.00
+iter   delt   delu1 deltu2  t   u1 u2 
+  9.00  -0.00   0.00   0.00   1.59   0.03 
+  0.13 re1   re2 re3  sol1  sol2 sol3
+ -0.00   0.49   2.39  -0.00   0.00   0.00
+iter   delt   delu1 deltu2  t   u1 u2 
+ 10.00  -0.00   0.00   0.00   1.59   0.03 
+  0.13 re1   re2 re3  sol1  sol2 sol3
+ -0.00   0.49   2.39  -0.00   0.00   0.00
+istep    t    u1  u2  
+  8.00   1.59   0.03   0.13
+iter   delt   delu1 deltu2  t   u1 u2 
+  1.00   0.20   0.00   0.00   1.79   0.03 
+  0.14 re1   re2 re3  sol1  sol2 sol3
+  0.20   0.49   2.39   0.20   0.00   0.00
+iter   delt   delu1 deltu2  t   u1 u2 
+  2.00  -0.00   0.00   0.00   1.79   0.03 
+  0.14 re1   re2 re3  sol1  sol2 sol3
+  0.00   0.55   2.69  -0.00   0.00   0.00
+iter   delt   delu1 deltu2  t   u1 u2 
+  3.00  -0.00   0.00   0.00   1.79   0.03 
+  0.14 re1   re2 re3  sol1  sol2 sol3
+  0.00   0.55   2.69  -0.00   0.00   0.00
+iter   delt   delu1 deltu2  t   u1 u2 
+  4.00  -0.00   0.00   0.00   1.79   0.03 
+  0.15 re1   re2 re3  sol1  sol2 sol3
+ -0.00   0.55   2.69  -0.00   0.00   0.00
+iter   delt   delu1 deltu2  t   u1 u2 
+  5.00  -0.00   0.00   0.00   1.79   0.03 
+  0.15 re1   re2 re3  sol1  sol2 sol3
+ -0.00   0.55   2.69  -0.00   0.00   0.00
+iter   delt   delu1 deltu2  t   u1 u2 
+  6.00  -0.00   0.00   0.00   1.79   0.03 
+  0.15 re1   re2 re3  sol1  sol2 sol3
+  0.00   0.55   2.69  -0.00   0.00   0.00
+iter   delt   delu1 deltu2  t   u1 u2 
+  7.00  -0.00   0.00   0.00   1.79   0.03 
+  0.16 re1   re2 re3  sol1  sol2 sol3
+  0.00   0.55   2.68  -0.00   0.00   0.00
+iter   delt   delu1 deltu2  t   u1 u2 
+  8.00  -0.00   0.00   0.00   1.79   0.03 
+  0.16 re1   re2 re3  sol1  sol2 sol3
+ -0.00   0.55   2.68  -0.00   0.00   0.00
+iter   delt   delu1 deltu2  t   u1 u2 
+  9.00  -0.00   0.00   0.00   1.79   0.03 
+  0.16 re1   re2 re3  sol1  sol2 sol3
+ -0.00   0.55   2.68  -0.00   0.00   0.00
+iter   delt   delu1 deltu2  t   u1 u2 
+ 10.00  -0.00   0.00   0.00   1.79   0.03 
+  0.17 re1   re2 re3  sol1  sol2 sol3
+ -0.00   0.55   2.68  -0.00   0.00   0.00
+istep    t    u1  u2  
+  9.00   1.79   0.03   0.17
+iter   delt   delu1 deltu2  t   u1 u2 
+  1.00   0.21   0.00   0.00   1.99   0.03 
+  0.17 re1   re2 re3  sol1  sol2 sol3
+  0.20   0.55   2.68   0.21   0.00   0.00
+iter   delt   delu1 deltu2  t   u1 u2 
+  2.00  -0.00   0.00   0.00   1.99   0.04 
+  0.18 re1   re2 re3  sol1  sol2 sol3
+  0.00   0.61   2.99  -0.00   0.00   0.00
+iter   delt   delu1 deltu2  t   u1 u2 
+  3.00  -0.00   0.00   0.00   1.99   0.04 
+  0.18 re1   re2 re3  sol1  sol2 sol3
+ -0.00   0.61   2.99  -0.00   0.00   0.00
+iter   delt   delu1 deltu2  t   u1 u2 
+  4.00  -0.00   0.00   0.00   1.99   0.04 
+  0.18 re1   re2 re3  sol1  sol2 sol3
+  0.00   0.61   2.99  -0.00   0.00   0.00
+iter   delt   delu1 deltu2  t   u1 u2 
+  5.00  -0.00   0.00   0.00   1.99   0.04 
+  0.19 re1   re2 re3  sol1  sol2 sol3
+  0.00   0.61   2.99  -0.00   0.00   0.00
+iter   delt   delu1 deltu2  t   u1 u2 
+  6.00  -0.00   0.00   0.00   1.99   0.04 
+  0.19 re1   re2 re3  sol1  sol2 sol3
+  0.00   0.61   2.99  -0.00   0.00   0.00
+iter   delt   delu1 deltu2  t   u1 u2 
+  7.00  -0.00   0.00   0.00   1.99   0.04 
+  0.19 re1   re2 re3  sol1  sol2 sol3
+ -0.00   0.61   2.99  -0.00   0.00   0.00
+iter   delt   delu1 deltu2  t   u1 u2 
+  8.00  -0.00   0.00   0.00   1.99   0.04 
+  0.20 re1   re2 re3  sol1  sol2 sol3
+ -0.00   0.61   2.99  -0.00   0.00   0.00
+iter   delt   delu1 deltu2  t   u1 u2 
+  9.00  -0.00   0.00   0.00   1.99   0.04 
+  0.20 re1   re2 re3  sol1  sol2 sol3
+ -0.00   0.61   2.99  -0.00   0.00   0.00
+iter   delt   delu1 deltu2  t   u1 u2 
+ 10.00  -0.00   0.00   0.00   1.99   0.04 
+  0.20 re1   re2 re3  sol1  sol2 sol3
+  0.00   0.61   2.98  -0.00   0.00   0.00
+istep    t    u1  u2  
+ 10.00   1.99   0.04   0.20
+iter   delt   delu1 deltu2  t   u1 u2 
+  1.00   0.20   0.00   0.00   2.19   0.04 
+  0.21 re1   re2 re3  sol1  sol2 sol3
+  0.20   0.61   2.98   0.20   0.00   0.00
+iter   delt   delu1 deltu2  t   u1 u2 
+  2.00  -0.00   0.00   0.00   2.18   0.04 
+  0.21 re1   re2 re3  sol1  sol2 sol3
+ -0.00   0.67   3.28  -0.00   0.00   0.00
+iter   delt   delu1 deltu2  t   u1 u2 
+  3.00  -0.00   0.00   0.00   2.18   0.04 
+  0.22 re1   re2 re3  sol1  sol2 sol3
+  0.00   0.67   3.28  -0.00   0.00   0.00
+iter   delt   delu1 deltu2  t   u1 u2 
+  4.00  -0.00   0.00   0.00   2.18   0.04 
+  0.22 re1   re2 re3  sol1  sol2 sol3
+ -0.00   0.67   3.28  -0.00   0.00   0.00
+iter   delt   delu1 deltu2  t   u1 u2 
+  5.00  -0.00   0.00   0.00   2.18   0.05 
+  0.23 re1   re2 re3  sol1  sol2 sol3
+  0.00   0.67   3.28  -0.00   0.00   0.00
+iter   delt   delu1 deltu2  t   u1 u2 
+  6.00  -0.00   0.00   0.00   2.18   0.05 
+  0.23 re1   re2 re3  sol1  sol2 sol3
+ -0.00   0.67   3.28  -0.00   0.00   0.00
+iter   delt   delu1 deltu2  t   u1 u2 
+  7.00  -0.00   0.00   0.00   2.18   0.05 
+  0.23 re1   re2 re3  sol1  sol2 sol3
+ -0.00   0.67   3.28  -0.00   0.00   0.00
+iter   delt   delu1 deltu2  t   u1 u2 
+  8.00  -0.00   0.00   0.00   2.18   0.05 
+  0.24 re1   re2 re3  sol1  sol2 sol3
+ -0.00   0.67   3.27  -0.00   0.00   0.00
+iter   delt   delu1 deltu2  t   u1 u2 
+  9.00  -0.00   0.00   0.00   2.18   0.05 
+  0.24 re1   re2 re3  sol1  sol2 sol3
+ -0.00   0.67   3.27  -0.00   0.00   0.00
+iter   delt   delu1 deltu2  t   u1 u2 
+ 10.00  -0.00   0.00   0.00   2.18   0.05 
+  0.25 re1   re2 re3  sol1  sol2 sol3
+ -0.00   0.67   3.27  -0.00   0.00   0.00
+istep    t    u1  u2  
+ 11.00   2.18   0.05   0.25
+iter   delt   delu1 deltu2  t   u1 u2 
+  1.00   0.21   0.00   0.00   2.39   0.05 
+  0.25 re1   re2 re3  sol1  sol2 sol3
+  0.20   0.67   3.27   0.21   0.00   0.00
+iter   delt   delu1 deltu2  t   u1 u2 
+  2.00  -0.00   0.00   0.00   2.39   0.05 
+  0.25 re1   re2 re3  sol1  sol2 sol3
+ -0.00   0.74   3.58  -0.00   0.00   0.00
+iter   delt   delu1 deltu2  t   u1 u2 
+  3.00  -0.00   0.00   0.00   2.38   0.05 
+  0.26 re1   re2 re3  sol1  sol2 sol3
+  0.00   0.74   3.58  -0.00   0.00   0.00
+iter   delt   delu1 deltu2  t   u1 u2 
+  4.00  -0.00   0.00   0.00   2.38   0.05 
+  0.26 re1   re2 re3  sol1  sol2 sol3
+ -0.00   0.74   3.58  -0.00   0.00   0.00
+iter   delt   delu1 deltu2  t   u1 u2 
+  5.00  -0.00   0.00   0.00   2.38   0.05 
+  0.27 re1   re2 re3  sol1  sol2 sol3
+  0.00   0.74   3.58  -0.00   0.00   0.00
+iter   delt   delu1 deltu2  t   u1 u2 
+  6.00  -0.00   0.00   0.00   2.38   0.06 
+  0.27 re1   re2 re3  sol1  sol2 sol3
+  0.00   0.74   3.58  -0.00   0.00   0.00
+iter   delt   delu1 deltu2  t   u1 u2 
+  7.00  -0.00   0.00   0.00   2.38   0.06 
+  0.28 re1   re2 re3  sol1  sol2 sol3
+ -0.00   0.74   3.58  -0.00   0.00   0.00
+iter   delt   delu1 deltu2  t   u1 u2 
+  8.00  -0.00   0.00   0.00   2.38   0.06 
+  0.28 re1   re2 re3  sol1  sol2 sol3
+  0.00   0.74   3.58  -0.00   0.00   0.00
+iter   delt   delu1 deltu2  t   u1 u2 
+  9.00  -0.00   0.00   0.00   2.38   0.06 
+  0.29 re1   re2 re3  sol1  sol2 sol3
+ -0.00   0.74   3.57  -0.00   0.00   0.00
+iter   delt   delu1 deltu2  t   u1 u2 
+ 10.00  -0.00   0.00   0.00   2.38   0.06 
+  0.29 re1   re2 re3  sol1  sol2 sol3
+  0.00   0.74   3.57  -0.00   0.00   0.00
+istep    t    u1  u2  
+ 12.00   2.38   0.06   0.29
+iter   delt   delu1 deltu2  t   u1 u2 
+  1.00   0.20   0.00   0.00   2.58   0.06 
+  0.29 re1   re2 re3  sol1  sol2 sol3
+  0.20   0.74   3.57   0.20   0.00   0.00
+iter   delt   delu1 deltu2  t   u1 u2 
+  2.00  -0.00   0.00   0.00   2.58   0.06 
+  0.30 re1   re2 re3  sol1  sol2 sol3
+  0.00   0.80   3.87  -0.00   0.00   0.00
+iter   delt   delu1 deltu2  t   u1 u2 
+  3.00  -0.00   0.00   0.00   2.57   0.06 
+  0.30 re1   re2 re3  sol1  sol2 sol3
+  0.00   0.80   3.87  -0.00   0.00   0.00
+iter   delt   delu1 deltu2  t   u1 u2 
+  4.00  -0.00   0.00   0.00   2.57   0.06 
+  0.31 re1   re2 re3  sol1  sol2 sol3
+  0.00   0.80   3.87  -0.00   0.00   0.00
+iter   delt   delu1 deltu2  t   u1 u2 
+  5.00  -0.00   0.00   0.00   2.57   0.06 
+  0.31 re1   re2 re3  sol1  sol2 sol3
+  0.00   0.80   3.87  -0.00   0.00   0.00
+iter   delt   delu1 deltu2  t   u1 u2 
+  6.00  -0.00   0.00   0.00   2.57   0.07 
+  0.32 re1   re2 re3  sol1  sol2 sol3
+  0.00   0.80   3.86  -0.00   0.00   0.00
+iter   delt   delu1 deltu2  t   u1 u2 
+  7.00  -0.00   0.00   0.00   2.57   0.07 
+  0.32 re1   re2 re3  sol1  sol2 sol3
+ -0.00   0.80   3.86  -0.00   0.00   0.00
+iter   delt   delu1 deltu2  t   u1 u2 
+  8.00  -0.00   0.00   0.00   2.57   0.07 
+  0.33 re1   re2 re3  sol1  sol2 sol3
+ -0.00   0.80   3.86  -0.00   0.00   0.00
+iter   delt   delu1 deltu2  t   u1 u2 
+  9.00  -0.00   0.00   0.00   2.57   0.07 
+  0.33 re1   re2 re3  sol1  sol2 sol3
+ -0.00   0.80   3.86  -0.00   0.00   0.00
+iter   delt   delu1 deltu2  t   u1 u2 
+ 10.00  -0.00   0.00   0.00   2.57   0.07 
+  0.34 re1   re2 re3  sol1  sol2 sol3
+ -0.00   0.80   3.86  -0.00   0.00   0.00
+istep    t    u1  u2  
+ 13.00   2.57   0.07   0.34
+iter   delt   delu1 deltu2  t   u1 u2 
+  1.00   0.21   0.00   0.01   2.78   0.07 
+  0.34 re1   re2 re3  sol1  sol2 sol3
+  0.20   0.80   3.86   0.21   0.00   0.01
+iter   delt   delu1 deltu2  t   u1 u2 
+  2.00  -0.00   0.00   0.01   2.78   0.07 
+  0.35 re1   re2 re3  sol1  sol2 sol3
+  0.00   0.86   4.17  -0.00   0.00   0.01
+iter   delt   delu1 deltu2  t   u1 u2 
+  3.00  -0.00   0.00   0.01   2.77   0.07 
+  0.35 re1   re2 re3  sol1  sol2 sol3
+ -0.00   0.86   4.17  -0.00   0.00   0.01
+iter   delt   delu1 deltu2  t   u1 u2 
+  4.00  -0.00   0.00   0.01   2.77   0.07 
+  0.36 re1   re2 re3  sol1  sol2 sol3
+  0.00   0.86   4.17  -0.00   0.00   0.01
+iter   delt   delu1 deltu2  t   u1 u2 
+  5.00  -0.00   0.00   0.01   2.77   0.07 
+  0.36 re1   re2 re3  sol1  sol2 sol3
+  0.00   0.86   4.17  -0.00   0.00   0.01
+iter   delt   delu1 deltu2  t   u1 u2 
+  6.00  -0.00   0.00   0.01   2.77   0.08 
+  0.37 re1   re2 re3  sol1  sol2 sol3
+ -0.00   0.86   4.16  -0.00   0.00   0.01
+iter   delt   delu1 deltu2  t   u1 u2 
+  7.00  -0.00   0.00   0.01   2.77   0.08 
+  0.37 re1   re2 re3  sol1  sol2 sol3
+  0.00   0.86   4.16  -0.00   0.00   0.01
+iter   delt   delu1 deltu2  t   u1 u2 
+  8.00  -0.00   0.00   0.01   2.77   0.08 
+  0.38 re1   re2 re3  sol1  sol2 sol3
+ -0.00   0.86   4.16  -0.00   0.00   0.01
+iter   delt   delu1 deltu2  t   u1 u2 
+  9.00  -0.00   0.00   0.01   2.77   0.08 
+  0.38 re1   re2 re3  sol1  sol2 sol3
+ -0.00   0.86   4.16  -0.00   0.00   0.01
+iter   delt   delu1 deltu2  t   u1 u2 
+ 10.00  -0.00   0.00   0.01   2.76   0.08 
+  0.39 re1   re2 re3  sol1  sol2 sol3
+ -0.00   0.86   4.16  -0.00   0.00   0.01
+istep    t    u1  u2  
+ 14.00   2.76   0.08   0.39
+iter   delt   delu1 deltu2  t   u1 u2 
+  1.00   0.20   0.00   0.01   2.97   0.08 
+  0.39 re1   re2 re3  sol1  sol2 sol3
+  0.20   0.86   4.15   0.20   0.00   0.01
+iter   delt   delu1 deltu2  t   u1 u2 
+  2.00  -0.00   0.00   0.01   2.96   0.08 
+  0.40 re1   re2 re3  sol1  sol2 sol3
+ -0.00   0.92   4.46  -0.00   0.00   0.01
+iter   delt   delu1 deltu2  t   u1 u2 
+  3.00  -0.00   0.00   0.01   2.96   0.08 
+  0.41 re1   re2 re3  sol1  sol2 sol3
+ -0.00   0.92   4.45  -0.00   0.00   0.01
+iter   delt   delu1 deltu2  t   u1 u2 
+  4.00  -0.00   0.00   0.01   2.96   0.08 
+  0.41 re1   re2 re3  sol1  sol2 sol3
+ -0.00   0.92   4.45  -0.00   0.00   0.01
+iter   delt   delu1 deltu2  t   u1 u2 
+  5.00  -0.00   0.00   0.01   2.96   0.09 
+  0.42 re1   re2 re3  sol1  sol2 sol3
+  0.00   0.92   4.45  -0.00   0.00   0.01
+iter   delt   delu1 deltu2  t   u1 u2 
+  6.00  -0.00   0.00   0.01   2.96   0.09 
+  0.42 re1   re2 re3  sol1  sol2 sol3
+  0.00   0.92   4.45  -0.00   0.00   0.01
+iter   delt   delu1 deltu2  t   u1 u2 
+  7.00  -0.00   0.00   0.01   2.96   0.09 
+  0.43 re1   re2 re3  sol1  sol2 sol3
+  0.00   0.92   4.45  -0.00   0.00   0.01
+iter   delt   delu1 deltu2  t   u1 u2 
+  8.00  -0.00   0.00   0.01   2.96   0.09 
+  0.43 re1   re2 re3  sol1  sol2 sol3
+  0.00   0.92   4.44  -0.00   0.00   0.01
+iter   delt   delu1 deltu2  t   u1 u2 
+  9.00  -0.00   0.00   0.01   2.95   0.09 
+  0.44 re1   re2 re3  sol1  sol2 sol3
+  0.00   0.92   4.44  -0.00   0.00   0.01
+iter   delt   delu1 deltu2  t   u1 u2 
+ 10.00  -0.00   0.00   0.01   2.95   0.09 
+  0.44 re1   re2 re3  sol1  sol2 sol3
+ -0.00   0.92   4.44  -0.00   0.00   0.01
+istep    t    u1  u2  
+ 15.00   2.95   0.09   0.44
+iter   delt   delu1 deltu2  t   u1 u2 
+  1.00   0.21   0.00   0.01   3.16   0.09 
+  0.45 re1   re2 re3  sol1  sol2 sol3
+  0.20   0.92   4.44   0.21   0.00   0.01
+iter   delt   delu1 deltu2  t   u1 u2 
+  2.00  -0.00   0.00   0.01   3.16   0.09 
+  0.46 re1   re2 re3  sol1  sol2 sol3
+  0.00   0.98   4.75  -0.00   0.00   0.01
+iter   delt   delu1 deltu2  t   u1 u2 
+  3.00  -0.00   0.00   0.01   3.16   0.09 
+  0.46 re1   re2 re3  sol1  sol2 sol3
+  0.00   0.98   4.75  -0.00   0.00   0.01
+iter   delt   delu1 deltu2  t   u1 u2 
+  4.00  -0.00   0.00   0.01   3.16   0.10 
+  0.47 re1   re2 re3  sol1  sol2 sol3
+  0.00   0.98   4.75  -0.00   0.00   0.01
+iter   delt   delu1 deltu2  t   u1 u2 
+  5.00  -0.00   0.00   0.01   3.16   0.10 
+  0.47 re1   re2 re3  sol1  sol2 sol3
+  0.00   0.98   4.75  -0.00   0.00   0.01
+iter   delt   delu1 deltu2  t   u1 u2 
+  6.00  -0.00   0.00   0.01   3.15   0.10 
+  0.48 re1   re2 re3  sol1  sol2 sol3
+ -0.00   0.98   4.74  -0.00   0.00   0.01
+iter   delt   delu1 deltu2  t   u1 u2 
+  7.00  -0.00   0.00   0.01   3.15   0.10 
+  0.48 re1   re2 re3  sol1  sol2 sol3
+  0.00   0.98   4.74  -0.00   0.00   0.01
+iter   delt   delu1 deltu2  t   u1 u2 
+  8.00  -0.00   0.00   0.01   3.15   0.10 
+  0.49 re1   re2 re3  sol1  sol2 sol3
+ -0.00   0.98   4.74  -0.00   0.00   0.01
+iter   delt   delu1 deltu2  t   u1 u2 
+  9.00  -0.00   0.00   0.01   3.15   0.10 
+  0.50 re1   re2 re3  sol1  sol2 sol3
+  0.00   0.98   4.74  -0.00   0.00   0.01
+iter   delt   delu1 deltu2  t   u1 u2 
+ 10.00  -0.00   0.00   0.01   3.15   0.10 
+  0.50 re1   re2 re3  sol1  sol2 sol3
+ -0.00   0.98   4.73  -0.00   0.00   0.01
+istep    t    u1  u2  
+ 16.00   3.15   0.10   0.50
+iter   delt   delu1 deltu2  t   u1 u2 
+  1.00   0.20   0.00   0.01   3.35   0.10 
+  0.51 re1   re2 re3  sol1  sol2 sol3
+  0.20   0.98   4.73   0.20   0.00   0.01
+iter   delt   delu1 deltu2  t   u1 u2 
+  2.00  -0.00   0.00   0.01   3.35   0.11 
+  0.51 re1   re2 re3  sol1  sol2 sol3
+ -0.00   1.04   5.04  -0.00   0.00   0.01
+iter   delt   delu1 deltu2  t   u1 u2 
+  3.00  -0.00   0.00   0.01   3.35   0.11 
+  0.52 re1   re2 re3  sol1  sol2 sol3
+ -0.00   1.04   5.03  -0.00   0.00   0.01
+iter   delt   delu1 deltu2  t   u1 u2 
+  4.00  -0.00   0.00   0.01   3.34   0.11 
+  0.53 re1   re2 re3  sol1  sol2 sol3
+ -0.00   1.04   5.03  -0.00   0.00   0.01
+iter   delt   delu1 deltu2  t   u1 u2 
+  5.00  -0.00   0.00   0.01   3.34   0.11 
+  0.53 re1   re2 re3  sol1  sol2 sol3
+ -0.00   1.04   5.03  -0.00   0.00   0.01
+iter   delt   delu1 deltu2  t   u1 u2 
+  6.00  -0.00   0.00   0.01   3.34   0.11 
+  0.54 re1   re2 re3  sol1  sol2 sol3
+  0.00   1.04   5.03  -0.00   0.00   0.01
+iter   delt   delu1 deltu2  t   u1 u2 
+  7.00  -0.00   0.00   0.01   3.34   0.11 
+  0.54 re1   re2 re3  sol1  sol2 sol3
+ -0.00   1.04   5.02  -0.00   0.00   0.01
+iter   delt   delu1 deltu2  t   u1 u2 
+  8.00  -0.00   0.00   0.01   3.34   0.11 
+  0.55 re1   re2 re3  sol1  sol2 sol3
+ -0.00   1.04   5.02  -0.00   0.00   0.01
+iter   delt   delu1 deltu2  t   u1 u2 
+  9.00  -0.00   0.00   0.01   3.33   0.11 
+  0.56 re1   re2 re3  sol1  sol2 sol3
+  0.00   1.04   5.02  -0.00   0.00   0.01
+iter   delt   delu1 deltu2  t   u1 u2 
+ 10.00  -0.00   0.00   0.01   3.33   0.12 
+  0.56 re1   re2 re3  sol1  sol2 sol3
+  0.00   1.04   5.01  -0.00   0.00   0.01
+istep    t    u1  u2  
+ 17.00   3.33   0.12   0.56
